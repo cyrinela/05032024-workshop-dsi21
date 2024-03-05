@@ -1,5 +1,5 @@
 <?php
-
+//la classe mere de tous les classes filles 
 namespace App\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;

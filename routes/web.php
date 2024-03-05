@@ -1,7 +1,7 @@
 <?php
 //on vas travailller les routes ici 
 use Illuminate\Support\Facades\Route;
-use app\Http\Controllers\contactController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,4 +20,4 @@ Route::get('/', function () {
 //Ressource/views/contact.blade.php
 //routes -> views (il sagit pas de principe de mvc )
 //on doit ajouter le controller (contactcontroller.php)
-Route::get('/contact', [contactController::class,'getContact']);
+Route::get('/contact', [ContactController::class,'getContact']);
